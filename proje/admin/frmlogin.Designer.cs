@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tblogin1 = new System.Windows.Forms.TextBox();
+            this.tblogin2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btlogin = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -52,23 +52,23 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             // 
-            // textBox1
+            // tblogin1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(141, 191);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.tblogin1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.tblogin1.ForeColor = System.Drawing.SystemColors.Menu;
+            this.tblogin1.Location = new System.Drawing.Point(141, 191);
+            this.tblogin1.Name = "tblogin1";
+            this.tblogin1.Size = new System.Drawing.Size(100, 20);
+            this.tblogin1.TabIndex = 1;
             // 
-            // textBox2
+            // tblogin2
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InfoText;
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox2.Location = new System.Drawing.Point(141, 249);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.tblogin2.BackColor = System.Drawing.SystemColors.InfoText;
+            this.tblogin2.ForeColor = System.Drawing.SystemColors.Menu;
+            this.tblogin2.Location = new System.Drawing.Point(141, 249);
+            this.tblogin2.Name = "tblogin2";
+            this.tblogin2.Size = new System.Drawing.Size(100, 20);
+            this.tblogin2.TabIndex = 3;
             // 
             // label2
             // 
@@ -103,16 +103,16 @@
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "şifremi unuttum";
             // 
-            // button1
+            // btlogin
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(53, 356);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 31);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "giriş yap";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btlogin.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btlogin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btlogin.Location = new System.Drawing.Point(53, 356);
+            this.btlogin.Name = "btlogin";
+            this.btlogin.Size = new System.Drawing.Size(200, 31);
+            this.btlogin.TabIndex = 6;
+            this.btlogin.Text = "giriş yap";
+            this.btlogin.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -151,12 +151,12 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btlogin);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tblogin2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tblogin1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "frmlogin";
@@ -170,12 +170,12 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tblogin1;
+        private System.Windows.Forms.TextBox tblogin2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btlogin;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;

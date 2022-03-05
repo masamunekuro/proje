@@ -41,8 +41,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.rtdesc = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.rtdescbooks = new System.Windows.Forms.RichTextBox();
+            this.btbook = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,7 +50,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(51, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 16);
+            this.label1.Size = new System.Drawing.Size(59, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "kitap adı";
             // 
@@ -101,7 +101,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(51, 163);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(58, 16);
             this.label2.TabIndex = 17;
             this.label2.Text = "yayınevi";
             // 
@@ -110,7 +110,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(51, 84);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 16);
+            this.label3.Size = new System.Drawing.Size(41, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "yazar";
             // 
@@ -119,7 +119,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(51, 121);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 16);
+            this.label4.Size = new System.Drawing.Size(84, 16);
             this.label4.TabIndex = 18;
             this.label4.Text = "sayfa sayası";
             // 
@@ -128,7 +128,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(51, 203);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(31, 16);
+            this.label5.Size = new System.Drawing.Size(32, 16);
             this.label5.TabIndex = 19;
             this.label5.Text = "fiyat";
             // 
@@ -137,7 +137,7 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(51, 244);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.Size = new System.Drawing.Size(67, 16);
             this.label6.TabIndex = 20;
             this.label6.Text = "basımyeri";
             // 
@@ -146,34 +146,34 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(51, 284);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 16);
+            this.label7.Size = new System.Drawing.Size(63, 16);
             this.label7.TabIndex = 21;
             this.label7.Text = "açıklama";
             // 
-            // rtdesc
+            // rtdescbooks
             // 
-            this.rtdesc.Location = new System.Drawing.Point(140, 284);
-            this.rtdesc.Name = "rtdesc";
-            this.rtdesc.Size = new System.Drawing.Size(186, 139);
-            this.rtdesc.TabIndex = 22;
-            this.rtdesc.Text = "";
+            this.rtdescbooks.Location = new System.Drawing.Point(140, 284);
+            this.rtdescbooks.Name = "rtdescbooks";
+            this.rtdescbooks.Size = new System.Drawing.Size(186, 139);
+            this.rtdescbooks.TabIndex = 22;
+            this.rtdescbooks.Text = "";
             // 
-            // button1
+            // btbook
             // 
-            this.button1.Location = new System.Drawing.Point(140, 451);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 46);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btbook.Location = new System.Drawing.Point(140, 451);
+            this.btbook.Name = "btbook";
+            this.btbook.Size = new System.Drawing.Size(186, 46);
+            this.btbook.TabIndex = 23;
+            this.btbook.Text = "button1";
+            this.btbook.UseVisualStyleBackColor = true;
             // 
             // frmbook
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.rtdesc);
+            this.Controls.Add(this.btbook);
+            this.Controls.Add(this.rtdescbooks);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -211,7 +211,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.RichTextBox rtdesc;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RichTextBox rtdescbooks;
+        private System.Windows.Forms.Button btbook;
     }
 }

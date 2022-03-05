@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbcomments1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.tbcomments2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.rdr1 = new System.Windows.Forms.RadioButton();
             this.rdr2 = new System.Windows.Forms.RadioButton();
@@ -47,12 +47,12 @@
             this.btyorum = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // tbcomments1
             // 
-            this.textBox1.Location = new System.Drawing.Point(119, 60);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 3;
+            this.tbcomments1.Location = new System.Drawing.Point(119, 60);
+            this.tbcomments1.Name = "tbcomments1";
+            this.tbcomments1.Size = new System.Drawing.Size(100, 20);
+            this.tbcomments1.TabIndex = 3;
             // 
             // label1
             // 
@@ -63,12 +63,12 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "kitap adı";
             // 
-            // textBox2
+            // tbcomments2
             // 
-            this.textBox2.Location = new System.Drawing.Point(119, 86);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.tbcomments2.Location = new System.Drawing.Point(119, 86);
+            this.tbcomments2.Name = "tbcomments2";
+            this.tbcomments2.Size = new System.Drawing.Size(100, 20);
+            this.tbcomments2.TabIndex = 5;
             // 
             // label2
             // 
@@ -212,7 +212,7 @@
             this.btyorum.Name = "btyorum";
             this.btyorum.Size = new System.Drawing.Size(263, 30);
             this.btyorum.TabIndex = 18;
-            this.btyorum.Text = "button1";
+            this.btyorum.Text = "gönder";
             this.btyorum.UseVisualStyleBackColor = true;
             // 
             // frmcomments
@@ -233,9 +233,9 @@
             this.Controls.Add(this.rdr3);
             this.Controls.Add(this.rdr2);
             this.Controls.Add(this.rdr1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.tbcomments2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbcomments1);
             this.Controls.Add(this.label1);
             this.Name = "frmcomments";
             this.Text = "frmcomments";
@@ -246,9 +246,9 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbcomments1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox tbcomments2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RadioButton rdr1;
         private System.Windows.Forms.RadioButton rdr2;
